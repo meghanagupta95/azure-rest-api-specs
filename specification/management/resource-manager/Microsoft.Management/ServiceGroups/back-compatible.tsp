@@ -5,6 +5,13 @@ using Microsoft.Management;
 
 @@clientName(Microsoft.Management, "ServiceGroupsMgmtClient", "python");
 
+@@clientName(ServiceGroups, "ServiceGroupClient", "csharp");
+
+@@clientName(ServiceGroupCollectionResponse,
+  "ServiceGroupCollectionResult",
+  "csharp"
+);
+
 @@clientLocation(ServiceGroups.createOrUpdateServiceGroup,
   Microsoft.Management
 );
